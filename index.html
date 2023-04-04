@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Final Module test</title>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;700&display=swap" rel="stylesheet">
+   </head>
+   <body>
+    <div class="topnav" id="myTopnav">
+      <div>
+        <a href="#home">Company</a>
+
+      </div>
+      <div style="gap:30px">
+        <a href="#news" class="active">Collections</a>
+        <a href="#contact">Menu</a>
+        <a href="#news"Collections</a>Events</a>
+        <!-- <a href="#news"Collections</a>Contact</a> -->
+        <div class="dropdown">
+          <button class="dropbtn">
+            <i class="fa fa-caret-down"></i>
+          </button>
+          
+        </div>
+
+      </div>
+      <a href="#about">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+      <!-- first -->
+      <div id="main">
+         <div id="left">
+           <div class="card">
+            <div class="cardinner">
+              <div class="cardheader">
+                <div class="search">
+                   LOREUMIPSUM
+                </div>
+                <div class="heading">Loreum Ipsum Heading</div>
+            
+              </div>
+              <div class="cardbody">
+                <div class="mainbanner">
+                  <img src="img/1.png" alt="">
+                </div>
+              </div>
+              <div class="partition"></div>
+              <div class="cardfooter">
+                  <div class="go">
+                     Get Started
+                  </div>
+                  <div class="symbol">
+                    &#x2192;
+                  </div>
+               </div>
+            </div>
+          </div>
+
+         </div>
+
+
+         <div id="right">
+            <div id="upperright">
+              <div class="card">
+                 <div class="cardinner">
+
+                    <div class="cardbody">
+                      <div class="firstpart">
+                        <div class="search">
+                           LOREUMIPSUM
+                        </div>
+                        <div class="heading">Loreum Ipsum Heading</div>
+                        <div class="details">
+                          Lorem Ipsum Text Lorem Ipsum Text </br>
+                          Lorem Ipsum Text Lorem Ipsum Text 
+                        </div>
+                      </div>
+                      <div class="secondpart">
+                         <img src="img/2.png" alt="">
+                      </div>
+                    </div>
+                    <div class="partition"></div>
+                    <div class="cardfooter">
+                        <div class="go">
+                           Get Started
+                        </div>
+                        <div class="symbol">
+                          &#x2192;
+                        </div>
+                     </div>
+
+
+
+                 </div>
+              </div>
+            </div>
+
+
+           <div id="lowerright">
+              <div id="leftvert">
+                <div class="card">
+                 <div class="cardinner">
+
+                   <div class="cardheader">
+
+                       <img src="img/3.png" alt="">
+
+                   </div>
+
+                   <div class="cardbody">
+
+                     <div class="heading">Portrait</div>
+                     <br>
+
+                     <div class="details">
+                       Lorem Ipsum Text Lorem Ipsum Text </br>
+                       Lorem Ipsum Text Lorem Ipsum Text </br>
+                       Lorem Ipsum Text Lorem Ipsum Text </br>
+                       Lorem Ipsum Text Lorem Ipsum Text </br>
+                       
+
+                     </div>
+                   </div>
+                   <div class="partition"></div>
+                   <div class="cardfooter">
+                       <div class="go">
+                          Get Started
+                       </div>
+                       <div class="symbol">
+                         &#x2192;
+                       </div>
+                    </div>
+                 </div>
+               </div>
+
+
+              </div>
+              <div id="rightvert">
+                <div class="card">
+                 <div class="cardinner">
+
+                   <div class="cardheader">
+
+                       <img src="img/4.png" alt="">
+
+                   </div>
+
+                   <div class="cardbody">
+
+                     <div class="search">
+                        LOREUMIPSUM
+                     </div>
+
+                     <div class="heading">Portrait</div>
+
+                     <div class="details">
+                       Lorem Ipsum Text Lorem Ipsum Text </br>
+                       Lorem Ipsum Text Lorem Ipsum Text </br>
+                       Lorem Ipsum Text Lorem Ipsum Text </br>
+                       Lorem Ipsum Text Lorem Ipsum Text </br>
+
+                     </div>
+                   </div>
+                   <div class="partition"></div>
+                   <div class="cardfooter">
+                       <div class="go">
+                          Get Started
+                       </div>
+                       <div class="symbol">
+                         &#x2192;
+                       </div>
+                    </div>
+                 </div>
+               </div>
+              </div>
+           </div>
+
+        </div>
+
+
+        <script>
+          function myFunction() {
+              var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                  x.className += " responsive";
+                  } 
+                  else {
+                      x.className = "topnav";
+                  }
+              }
+          </script>
+
+
+
+   </body>
+</html>
